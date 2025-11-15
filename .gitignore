@@ -1,0 +1,46 @@
+# Environment variables
+__pycache__/
+*.pyc
+.env
+.env.local
+.env.*.local
+
+# Python compiled files
+*.pt
+*.bin
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Markdown files
+*.md
+
+# Model cache files
+*.index
+*.faiss
+*.pkl
+*.h5
+*.onnx
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
